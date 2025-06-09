@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 22:02+0000\n"
+"POT-Creation-Date: 2025-06-09 19:50+0000\n"
 "PO-Revision-Date: 2022-05-24 18:54+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,38 +23,38 @@ msgstr "Botão do meio do rato para abrir o Calendário"
 msgid "No events this day"
 msgstr "Sem eventos neste dia"
 
-#: src/Indicator.vala:93
+#: src/Indicator.vala:91
 msgid "Date & Time Settings…"
 msgstr "Definições de Data e Hora…"
 
-#: src/Indicator.vala:133
+#: src/Indicator.vala:130
 msgid "Unable To launch Tasks"
 msgstr "Não é possível lançar o Tarefas"
 
-#: src/Indicator.vala:134
+#: src/Indicator.vala:131
 msgid "The program \"io.elementary.tasks\" may not be installed"
 msgstr "O programa \"io.elementary.tasks\" pode não estar instalado"
 
-#: src/Indicator.vala:167
+#: src/Indicator.vala:164
 msgid "During the Day"
 msgstr "Durante o dia"
 
-#: src/Indicator.vala:175
+#: src/Indicator.vala:172
 msgid "All Day"
 msgstr "Todo o dia"
 
-#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:255
+#: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
 msgstr "Não é possível lançar o calendário"
 
-#: src/Widgets/PanelLabel.vala:91 src/Widgets/calendar/CalendarView.vala:256
+#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
 msgstr "O programa \"io.elementary.calendar\" pode não estar instalado"
 
 #: src/Widgets/calendar/CalendarView.vala:39
-#: src/Widgets/calendar/CalendarView.vala:141
-#: src/Widgets/calendar/CalendarView.vala:176
-#: src/Widgets/calendar/CalendarView.vala:237
+#: src/Widgets/calendar/CalendarView.vala:139
+#: src/Widgets/calendar/CalendarView.vala:174
+#: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
 msgstr "%OB, %Y"
 

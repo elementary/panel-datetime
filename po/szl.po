@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 22:02+0000\n"
+"POT-Creation-Date: 2025-06-09 19:50+0000\n"
 "PO-Revision-Date: 2020-02-23 00:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/wingpanel/"
@@ -24,42 +24,42 @@ msgstr ""
 msgid "No events this day"
 msgstr "Żodnych zdarzyń w tyn dziyń"
 
-#: src/Indicator.vala:93
+#: src/Indicator.vala:91
 msgid "Date & Time Settings…"
 msgstr "Sztelōnki daty i godziny…"
 
-#: src/Indicator.vala:133
+#: src/Indicator.vala:130
 #, fuzzy
 #| msgid "Unable To Launch Calendar"
 msgid "Unable To launch Tasks"
 msgstr "Niy idzie ôtworzić Kalyndorza"
 
-#: src/Indicator.vala:134
+#: src/Indicator.vala:131
 #, fuzzy
 #| msgid "The program \"io.elementary.calendar\" may not be installed"
 msgid "The program \"io.elementary.tasks\" may not be installed"
 msgstr "Program „io.elementary.calendar” może niy być zainstalowany"
 
-#: src/Indicator.vala:167
+#: src/Indicator.vala:164
 msgid "During the Day"
 msgstr "W czasie dnia"
 
-#: src/Indicator.vala:175
+#: src/Indicator.vala:172
 msgid "All Day"
 msgstr "Cołki dziyń"
 
-#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:255
+#: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
 msgstr "Niy idzie ôtworzić Kalyndorza"
 
-#: src/Widgets/PanelLabel.vala:91 src/Widgets/calendar/CalendarView.vala:256
+#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
 msgstr "Program „io.elementary.calendar” może niy być zainstalowany"
 
 #: src/Widgets/calendar/CalendarView.vala:39
-#: src/Widgets/calendar/CalendarView.vala:141
-#: src/Widgets/calendar/CalendarView.vala:176
-#: src/Widgets/calendar/CalendarView.vala:237
+#: src/Widgets/calendar/CalendarView.vala:139
+#: src/Widgets/calendar/CalendarView.vala:174
+#: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
 msgstr "%OB, %Y"
 

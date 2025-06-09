@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 22:02+0000\n"
+"POT-Creation-Date: 2025-06-09 19:50+0000\n"
 "PO-Revision-Date: 2021-12-09 20:40+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/wingpanel/"
@@ -23,38 +23,38 @@ msgstr "Keskimmäisen napin napsautus avaa kalenterin"
 msgid "No events this day"
 msgstr "Ei tapahtumia tänä päivänä"
 
-#: src/Indicator.vala:93
+#: src/Indicator.vala:91
 msgid "Date & Time Settings…"
 msgstr "Ajan ja päiväyksen asetukset…"
 
-#: src/Indicator.vala:133
+#: src/Indicator.vala:130
 msgid "Unable To launch Tasks"
 msgstr "Tehtävien käynnistäminen ei onnistu"
 
-#: src/Indicator.vala:134
+#: src/Indicator.vala:131
 msgid "The program \"io.elementary.tasks\" may not be installed"
 msgstr "Ohjelmaa \"io.elementary.tasks\" ei ole välttämättä asennettu"
 
-#: src/Indicator.vala:167
+#: src/Indicator.vala:164
 msgid "During the Day"
 msgstr "Päivän aikana"
 
-#: src/Indicator.vala:175
+#: src/Indicator.vala:172
 msgid "All Day"
 msgstr "Koko päivä"
 
-#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:255
+#: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
 msgstr "Kalenterin käynnistäminen ei onnistu"
 
-#: src/Widgets/PanelLabel.vala:91 src/Widgets/calendar/CalendarView.vala:256
+#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
 msgstr "Ohjelmaa \"io.elementary.calendar\" ei ole välttämättä asennettu"
 
 #: src/Widgets/calendar/CalendarView.vala:39
-#: src/Widgets/calendar/CalendarView.vala:141
-#: src/Widgets/calendar/CalendarView.vala:176
-#: src/Widgets/calendar/CalendarView.vala:237
+#: src/Widgets/calendar/CalendarView.vala:139
+#: src/Widgets/calendar/CalendarView.vala:174
+#: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
 msgstr ""
 

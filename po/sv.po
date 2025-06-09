@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 22:02+0000\n"
+"POT-Creation-Date: 2025-06-09 19:50+0000\n"
 "PO-Revision-Date: 2018-10-19 18:06+0000\n"
 "Last-Translator: Fredrik B <frbo9002@gmail.com>\n"
 "Language-Team: Swedish <https://weblate.elementary.io/projects/wingpanel/"
@@ -23,38 +23,38 @@ msgstr ""
 msgid "No events this day"
 msgstr ""
 
-#: src/Indicator.vala:93
+#: src/Indicator.vala:91
 msgid "Date & Time Settings…"
 msgstr "Datum- och tidsinställningar…"
 
-#: src/Indicator.vala:133
+#: src/Indicator.vala:130
 msgid "Unable To launch Tasks"
 msgstr ""
 
-#: src/Indicator.vala:134
+#: src/Indicator.vala:131
 msgid "The program \"io.elementary.tasks\" may not be installed"
 msgstr ""
 
-#: src/Indicator.vala:167
+#: src/Indicator.vala:164
 msgid "During the Day"
 msgstr ""
 
-#: src/Indicator.vala:175
+#: src/Indicator.vala:172
 msgid "All Day"
 msgstr ""
 
-#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:255
+#: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
 msgstr ""
 
-#: src/Widgets/PanelLabel.vala:91 src/Widgets/calendar/CalendarView.vala:256
+#: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
 msgstr ""
 
 #: src/Widgets/calendar/CalendarView.vala:39
-#: src/Widgets/calendar/CalendarView.vala:141
-#: src/Widgets/calendar/CalendarView.vala:176
-#: src/Widgets/calendar/CalendarView.vala:237
+#: src/Widgets/calendar/CalendarView.vala:139
+#: src/Widgets/calendar/CalendarView.vala:174
+#: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
 msgstr ""
 
