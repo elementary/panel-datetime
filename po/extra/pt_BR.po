@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 22:02+0000\n"
-"PO-Revision-Date: 2024-11-05 19:01+0000\n"
+"PO-Revision-Date: 2025-07-26 16:55+0000\n"
 "Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
 "wingpanel/indicator-datetime-extra/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/datetime.metainfo.xml.in:11
 msgid "Date &amp; Time Indicator"
@@ -30,7 +30,7 @@ msgstr "O indicador de data e hora"
 #: data/datetime.metainfo.xml.in:35 data/datetime.metainfo.xml.in:44
 #: data/datetime.metainfo.xml.in:63 data/datetime.metainfo.xml.in:79
 msgid "Improvements:"
-msgstr ""
+msgstr "Melhorias:"
 
 #: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:46
 #: data/datetime.metainfo.xml.in:66 data/datetime.metainfo.xml.in:81
@@ -40,7 +40,7 @@ msgstr "Traduções atualizadas"
 
 #: data/datetime.metainfo.xml.in:53
 msgid "New features:"
-msgstr ""
+msgstr "Novas funcionalidades:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
