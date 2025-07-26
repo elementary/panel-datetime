@@ -3,25 +3,23 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 19:50+0000\n"
-"PO-Revision-Date: 2019-08-29 17:23+0000\n"
-"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"PO-Revision-Date: 2025-07-27 21:55+0000\n"
+"Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
 "wingpanel/wingpanel-indicator-datetime/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-19 05:58+0000\n"
 
 #: src/Indicator.vala:53
 msgid "Middle-click to open Calendar"
-msgstr ""
+msgstr "Clique com o botão do meio para abrir o Calendário"
 
 #: src/Indicator.vala:66
-#, fuzzy
-#| msgid "No Events on This Day"
 msgid "No events this day"
 msgstr "Não há eventos para este dia"
 
@@ -30,16 +28,12 @@ msgid "Date & Time Settings…"
 msgstr "Configurações de Data e Hora…"
 
 #: src/Indicator.vala:130
-#, fuzzy
-#| msgid "Unable To Launch Calendar"
 msgid "Unable To launch Tasks"
-msgstr "Não é possível iniciar o Calendário"
+msgstr "Não é possível iniciar Tarefas"
 
 #: src/Indicator.vala:131
-#, fuzzy
-#| msgid "The program \"io.elementary.calendar\" may not be installed"
 msgid "The program \"io.elementary.tasks\" may not be installed"
-msgstr "O programa \"io.elementary.calendar\" pode não estar instalado"
+msgstr "O programa \"io.elementary.tasks\" pode não estar instalado"
 
 #: src/Indicator.vala:164
 msgid "During the Day"
