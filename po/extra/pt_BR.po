@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 22:02+0000\n"
-"PO-Revision-Date: 2025-07-26 16:55+0000\n"
+"PO-Revision-Date: 2025-07-27 21:55+0000\n"
 "Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
 "wingpanel/indicator-datetime-extra/pt_BR/>\n"
@@ -44,11 +44,11 @@ msgstr "Novas funcionalidades:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
-msgstr ""
+msgstr "Abrir o Calendário com o clique do meio"
 
 #: data/datetime.metainfo.xml.in:56
 msgid "Show due Tasks for the selected day"
-msgstr ""
+msgstr "Mostrar Tarefas vencidas para o dia selecionado"
 
 #: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:73
 msgid "Fixes:"
@@ -56,11 +56,11 @@ msgstr "Correções:"
 
 #: data/datetime.metainfo.xml.in:60 data/datetime.metainfo.xml.in:75
 msgid "Update current day when opening"
-msgstr ""
+msgstr "Atualizar o dia atual ao abrir"
 
 #: data/datetime.metainfo.xml.in:61 data/datetime.metainfo.xml.in:77
 msgid "Fix potential memory leak"
-msgstr ""
+msgstr "Corrigir potencial vazamento de memória"
 
 #: data/datetime.metainfo.xml.in:65
 msgid "Performance improvements"
@@ -69,14 +69,16 @@ msgstr "Melhorias de desempenho"
 #: data/datetime.metainfo.xml.in:76
 msgid "Fix disappearing dates when changing between dark and light styles"
 msgstr ""
+"Correção do desaparecimento de datas ao alternar entre os estilos escuro e "
+"claro"
 
 #: data/datetime.metainfo.xml.in:88
 msgid "Add multitouch gestures"
-msgstr ""
+msgstr "Adicionar gestos multitoque"
 
 #: data/datetime.metainfo.xml.in:89
 msgid "Improve time zone handling"
-msgstr ""
+msgstr "Melhorar o tratamento de fuso horário"
 
 #, fuzzy
 #~| msgid "Fixed issues with large text size"
