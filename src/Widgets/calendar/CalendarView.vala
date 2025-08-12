@@ -66,6 +66,9 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
         box_buttons.append (center_button);
         box_buttons.append (right_button);
 
+        var new_event_button = new Gtk.Button.from_icon_name ("appointment-new-symbolic");
+        new_event_button.tooltip_text = _("New event");
+
         events_model = CalendarModel.get_default (ECal.ClientSourceType.EVENTS);
         tasks_model = CalendarModel.get_default (ECal.ClientSourceType.TASKS);
         start_month = Util.get_start_of_month ();
@@ -109,7 +112,8 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
         margin_start = margin_end = 10;
         attach (label, 0, 0);
         attach (box_buttons, 1, 0);
-        attach (carousel, 0, 1, 2);
+        attach (new_event_button, 2, 0);
+        attach (carousel, 0, 1, 3);
 
         left_button.clicked.connect (() => {
             carousel.scroll_to (carousel.get_nth_page ((uint) Math.round (carousel.position) - 1), true);
@@ -121,6 +125,10 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
 
         center_button.clicked.connect (() => {
             show_today ();
+        });
+
+        new_event_button.clicked.connect (() => {
+            open_maya_with_options (selected_date, true);
         });
 
         carousel.page_changed.connect ((index) => {
@@ -238,8 +246,11 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
     }
 
     // TODO: As far as maya supports it use the Dbus Activation feature to run the calendar-app.
-    public void show_date_in_maya (GLib.DateTime date) {
-        var command = "io.elementary.calendar --show-day %s".printf (date.format ("%F"));
+    private void open_maya_with_options (GLib.DateTime? day_to_show, bool add_event = false) {
+        day_to_show = day_to_show ?? new GLib.DateTime.now_local ();
+        var command = "io.elementary.calendar";
+        command += add_event ? " --add-event" : "";
+        command += " --show-day %s".printf (day_to_show.format ("%F"));
 
         try {
             var appinfo = AppInfo.create_from_commandline (command, null, AppInfoCreateFlags.NONE);
@@ -254,6 +265,10 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
             dialog.response.connect (dialog.destroy);
             dialog.present ();
         }
+    }
+
+    public void show_date_in_maya (GLib.DateTime date) {
+        open_maya_with_options (date);
     }
 
     public void refresh () {
