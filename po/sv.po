@@ -3,25 +3,25 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 19:50+0000\n"
-"PO-Revision-Date: 2018-10-19 18:06+0000\n"
-"Last-Translator: Fredrik B <frbo9002@gmail.com>\n"
-"Language-Team: Swedish <https://weblate.elementary.io/projects/wingpanel/"
+"PO-Revision-Date: 2025-10-22 09:58+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-datetime/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
 
 #: src/Indicator.vala:53
 msgid "Middle-click to open Calendar"
-msgstr ""
+msgstr "Mellanklicka för att öppna Kalender"
 
 #: src/Indicator.vala:66
 msgid "No events this day"
-msgstr ""
+msgstr "Inga evenemang denna dag"
 
 #: src/Indicator.vala:91
 msgid "Date & Time Settings…"
@@ -29,38 +29,38 @@ msgstr "Datum- och tidsinställningar…"
 
 #: src/Indicator.vala:130
 msgid "Unable To launch Tasks"
-msgstr ""
+msgstr "Det går inte att starta Uppgifter"
 
 #: src/Indicator.vala:131
 msgid "The program \"io.elementary.tasks\" may not be installed"
-msgstr ""
+msgstr "Programmet \"io.elementary.tasks\" kanske inte är installerat"
 
 #: src/Indicator.vala:164
 msgid "During the Day"
-msgstr ""
+msgstr "Under dagen"
 
 #: src/Indicator.vala:172
 msgid "All Day"
-msgstr ""
+msgstr "Hela dagen"
 
 #: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
-msgstr ""
+msgstr "Det går inte att starta Kalender"
 
 #: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
-msgstr ""
+msgstr "Programmet \"io.elementary.calendar\" kanske inte är installerat"
 
 #: src/Widgets/calendar/CalendarView.vala:39
 #: src/Widgets/calendar/CalendarView.vala:139
 #: src/Widgets/calendar/CalendarView.vala:174
 #: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
-msgstr ""
+msgstr "%OB, %Y"
 
 #: src/Widgets/calendar/CalendarView.vala:56
 msgid "Go to today's date"
-msgstr ""
+msgstr "Gå till dagens datum"
 
 #~ msgid "Date & Time"
 #~ msgstr "Datum & tid"
