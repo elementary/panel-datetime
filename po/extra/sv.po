@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 22:02+0000\n"
-"PO-Revision-Date: 2025-10-22 09:24+0000\n"
+"PO-Revision-Date: 2025-10-22 09:58+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-datetime-extra/sv/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/datetime.metainfo.xml.in:11
 msgid "Date &amp; Time Indicator"
-msgstr ""
+msgstr "Datum och tidsindikator"
 
 #: data/datetime.metainfo.xml.in:12
 msgid "The date and time indicator"
-msgstr ""
+msgstr "Datum- och tidsindikering"
 
 #: data/datetime.metainfo.xml.in:35 data/datetime.metainfo.xml.in:44
 #: data/datetime.metainfo.xml.in:63 data/datetime.metainfo.xml.in:79
@@ -44,11 +44,11 @@ msgstr "Nya funktioner:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
-msgstr ""
+msgstr "Öppna Kalender genom att klicka med mitten"
 
 #: data/datetime.metainfo.xml.in:56
 msgid "Show due Tasks for the selected day"
-msgstr ""
+msgstr "Visa förfallna uppgifter för den valda dagen"
 
 #: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:73
 msgid "Fixes:"
@@ -56,11 +56,11 @@ msgstr "Åtgärdar:"
 
 #: data/datetime.metainfo.xml.in:60 data/datetime.metainfo.xml.in:75
 msgid "Update current day when opening"
-msgstr ""
+msgstr "Uppdatera aktuell dag vid öppning"
 
 #: data/datetime.metainfo.xml.in:61 data/datetime.metainfo.xml.in:77
 msgid "Fix potential memory leak"
-msgstr ""
+msgstr "Fixar potentiellt minnesläckage"
 
 #: data/datetime.metainfo.xml.in:65
 msgid "Performance improvements"
@@ -68,12 +68,12 @@ msgstr "Förbättringar av prestanda"
 
 #: data/datetime.metainfo.xml.in:76
 msgid "Fix disappearing dates when changing between dark and light styles"
-msgstr ""
+msgstr "Fixa datum som försvinner när du växlar mellan mörk och ljus stil"
 
 #: data/datetime.metainfo.xml.in:88
 msgid "Add multitouch gestures"
-msgstr ""
+msgstr "Lägg till multitouch-gester"
 
 #: data/datetime.metainfo.xml.in:89
 msgid "Improve time zone handling"
-msgstr ""
+msgstr "Förbättra hanteringen av tidszoner"
