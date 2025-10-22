@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 22:02+0000\n"
-"PO-Revision-Date: 2025-10-22 05:31+0000\n"
+"PO-Revision-Date: 2025-10-22 09:24+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-datetime-extra/sv/>\n"
@@ -40,7 +40,7 @@ msgstr "Uppdaterade översättningar"
 
 #: data/datetime.metainfo.xml.in:53
 msgid "New features:"
-msgstr ""
+msgstr "Nya funktioner:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: data/datetime.metainfo.xml.in:65
 msgid "Performance improvements"
-msgstr ""
+msgstr "Förbättringar av prestanda"
 
 #: data/datetime.metainfo.xml.in:76
 msgid "Fix disappearing dates when changing between dark and light styles"
