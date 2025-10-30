@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-18 22:02+0000\n"
-"PO-Revision-Date: 2025-10-22 09:58+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-datetime-extra/sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/datetime.metainfo.xml.in:11
 msgid "Date &amp; Time Indicator"
-msgstr "Datum och tidsindikator"
+msgstr "Indikator för datum och tid"
 
 #: data/datetime.metainfo.xml.in:12
 msgid "The date and time indicator"
@@ -44,11 +44,11 @@ msgstr "Nya funktioner:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
-msgstr "Öppna Kalender genom att klicka med mitten"
+msgstr "Öppna Kalender genom att mittenklicka"
 
 #: data/datetime.metainfo.xml.in:56
 msgid "Show due Tasks for the selected day"
-msgstr "Visa förfallna uppgifter för den valda dagen"
+msgstr "Visa uppgifter att genomföra för den valda dagen"
 
 #: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:73
 msgid "Fixes:"
@@ -72,7 +72,7 @@ msgstr "Fixa datum som försvinner när du växlar mellan mörk och ljus stil"
 
 #: data/datetime.metainfo.xml.in:88
 msgid "Add multitouch gestures"
-msgstr "Lägg till multitouch-gester"
+msgstr "Lägg till flertrycksgester"
 
 #: data/datetime.metainfo.xml.in:89
 msgid "Improve time zone handling"
