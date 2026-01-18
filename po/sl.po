@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 19:50+0000\n"
-"PO-Revision-Date: 2020-03-01 20:09+0000\n"
+"PO-Revision-Date: 2026-01-19 15:55+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/wingpanel/"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-datetime/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -13,16 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
 
 #: src/Indicator.vala:53
 msgid "Middle-click to open Calendar"
-msgstr ""
+msgstr "Srednji klik za odpiranje koledarja"
 
 #: src/Indicator.vala:66
-#, fuzzy
-#| msgid "No Events on This Day"
 msgid "No events this day"
 msgstr "Na ta dan ni dogodkov"
 
@@ -31,16 +29,12 @@ msgid "Date & Time Settings…"
 msgstr "Nastavitve datuma in časa …"
 
 #: src/Indicator.vala:130
-#, fuzzy
-#| msgid "Unable To Launch Calendar"
 msgid "Unable To launch Tasks"
-msgstr "Ni bilo mogoče pognati aplikacije Koledar"
+msgstr "Ni bilo mogoče pognati Opravil"
 
 #: src/Indicator.vala:131
-#, fuzzy
-#| msgid "The program \"io.elementary.calendar\" may not be installed"
 msgid "The program \"io.elementary.tasks\" may not be installed"
-msgstr "Aplikacija \"io.elementary.calendar\" verjetno ni nameščena"
+msgstr "Aplikacija \"io.elementary.tasks\" verjetno ni nameščena"
 
 #: src/Indicator.vala:164
 msgid "During the Day"
@@ -63,7 +57,7 @@ msgstr "Aplikacija \"io.elementary.calendar\" verjetno ni nameščena"
 #: src/Widgets/calendar/CalendarView.vala:174
 #: src/Widgets/calendar/CalendarView.vala:233
 msgid "%OB, %Y"
-msgstr ""
+msgstr "%OB, %Y"
 
 #: src/Widgets/calendar/CalendarView.vala:56
 msgid "Go to today's date"
