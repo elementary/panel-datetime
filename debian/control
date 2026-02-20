@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10.5.1),
                libical-dev,
                libgranite-7-dev,
                libgtk-4-dev (>= 3.12),
-               libwingpanel-8-dev,
+               libwingpanel-9-dev,
                meson (>= 0.57.0),
                valac (>= 0.40.3)
 Standards-Version: 4.1.1
