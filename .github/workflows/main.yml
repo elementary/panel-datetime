@@ -24,7 +24,7 @@ jobs:
     - name: Install Dependencies
       run: |
         apt update
-        apt install -y gobject-introspection libecal2.0-dev libadwaita-1-dev libedataserver1.2-dev libical-dev libgranite-7-dev libwingpanel-8-dev meson valac
+        apt install -y gobject-introspection libecal2.0-dev libadwaita-1-dev libedataserver1.2-dev libical-dev libgranite-7-dev libwingpanel-9-dev meson valac
     - name: Build
       env:
         DESTDIR: out
