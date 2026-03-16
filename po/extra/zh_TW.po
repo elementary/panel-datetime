@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 19:06+0000\n"
-"PO-Revision-Date: 2024-09-05 16:16+0000\n"
-"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
-"wingpanel/indicator-datetime-extra/zh_Hant/>\n"
+"PO-Revision-Date: 2026-03-17 09:52+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"l10n.elementaryos.org/projects/wingpanel/indicator-datetime-extra/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/datetime.metainfo.xml.in:11
 #, fuzzy
@@ -31,7 +31,7 @@ msgstr "提供日期與時間資訊的指示器"
 
 #: data/datetime.metainfo.xml.in:27
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/datetime.metainfo.xml.in:35 data/datetime.metainfo.xml.in:44
 #: data/datetime.metainfo.xml.in:63 data/datetime.metainfo.xml.in:79
