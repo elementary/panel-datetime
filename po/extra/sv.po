@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 19:06+0000\n"
 "PO-Revision-Date: 2026-03-17 09:52+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-datetime-extra/sv/>\n"
 "Language: sv\n"
@@ -29,7 +29,7 @@ msgstr "Datum- och tidsindikering"
 
 #: data/datetime.metainfo.xml.in:27
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/datetime.metainfo.xml.in:35 data/datetime.metainfo.xml.in:44
 #: data/datetime.metainfo.xml.in:63 data/datetime.metainfo.xml.in:79
