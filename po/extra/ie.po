@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: datetime-indicator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 22:02+0000\n"
+"POT-Creation-Date: 2026-03-16 19:06+0000\n"
 "PO-Revision-Date: 2025-03-20 07:55+0000\n"
 "Last-Translator: Carmina16 <mistresssilvara@hotmail.com>\n"
 "Language-Team: Occidental <https://l10n.elementaryos.org/projects/wingpanel/"
@@ -20,11 +20,15 @@ msgstr ""
 "X-Generator: Weblate 5.10.4\n"
 
 #: data/datetime.metainfo.xml.in:11
-msgid "Date &amp; Time Indicator"
+msgid "Date & Time Indicator"
 msgstr ""
 
 #: data/datetime.metainfo.xml.in:12
 msgid "The date and time indicator"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:27
+msgid "elementary, Inc."
 msgstr ""
 
 #: data/datetime.metainfo.xml.in:35 data/datetime.metainfo.xml.in:44
