@@ -51,7 +51,7 @@ namespace DateTime.Widgets {
             header_labels = new Gtk.Label[7];
             for (int c = 0; c < 7; c++) {
                 header_labels[c] = new Gtk.Label (null);
-                header_labels[c].get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
+                header_labels[c].add_css_class (Granite.STYLE_CLASS_H4_LABEL);
 
                 attach (header_labels[c], c + 2, 0);
             }
@@ -248,7 +248,7 @@ namespace DateTime.Widgets {
                     margin_bottom = 6,
                     width_chars = 2
                 };
-                week_label.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
+                week_label.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
 
                 week_labels[c] = new Gtk.Revealer () {
                     transition_type = Gtk.RevealerTransitionType.SLIDE_LEFT,
@@ -280,11 +280,11 @@ namespace DateTime.Widgets {
         private void update_today_style (GridDay day, GLib.DateTime date, GLib.DateTime today) {
             if (date.get_day_of_year () == today.get_day_of_year () && date.get_year () == today.get_year ()) {
                 day.name = "today";
-                day.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
+                day.add_css_class (Granite.CssClass.ACCENT);
                 day.receives_default = true;
             } else if (day.name == "today") {
                 day.name = "";
-                day.get_style_context ().remove_class (Granite.STYLE_CLASS_ACCENT);
+                day.remove_css_class (Granite.CssClass.ACCENT);
                 day.receives_default = false;
             }
         }

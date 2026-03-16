@@ -90,9 +90,7 @@ public class DateTime.ComponentRow : Gtk.ListBoxRow {
         component_image = new Gtk.Image.from_icon_name (icon_name) {
             valign = Gtk.Align.START
         };
-
-        unowned var component_image_context = component_image.get_style_context ();
-        component_image_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        component_image.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         name_label = new Gtk.Label (component.get_summary ()) {
             hexpand = true,
@@ -103,16 +101,14 @@ public class DateTime.ComponentRow : Gtk.ListBoxRow {
             wrap_mode = Pango.WrapMode.WORD_CHAR,
             xalign = 0
         };
-
-        var name_label_context = name_label.get_style_context ();
-        name_label_context.add_class ("title");
-        name_label_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        name_label.add_css_class ("title");
+        name_label.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         time_label = new Gtk.Label (null) {
             use_markup = true,
             xalign = 0,
         };
-        time_label.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
+        time_label.add_css_class (Granite.CssClass.DIM);
 
         grid = new Gtk.Grid () {
             column_spacing = 6,
@@ -127,9 +123,8 @@ public class DateTime.ComponentRow : Gtk.ListBoxRow {
             grid.attach (time_label, 1, 1);
         }
 
-        unowned var grid_context = grid.get_style_context ();
-        grid_context.add_class ("event");
-        grid_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        grid.add_css_class ("event");
+        grid.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         child = grid;
 
