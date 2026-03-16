@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 19:50+0000\n"
+"POT-Creation-Date: 2026-03-16 19:06+0000\n"
 "PO-Revision-Date: 2018-10-29 02:01+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese <https://weblate.elementary.io/projects/wingpanel/"
