@@ -13,7 +13,7 @@ You'll need the following dependencies:
 * libecal1.2-dev
 * libedataserver1.2-dev
 * libical-dev
-* libgranite-7-dev >= 7.6.0
+* libgranite-7-dev >= 7.7.0
 * libwingpanel-9-dev
 * meson (>= 0.57.0)
 * valac >= 0.40.3
