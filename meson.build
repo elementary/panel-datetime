@@ -64,7 +64,7 @@ shared_module(
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite-7', version: '>=7.6.0'),
+        dependency('granite-7', version: '>=7.7.0'),
         dependency('gtk4'),
         libecal_dep,
         dependency('libedataserver-1.2'),
