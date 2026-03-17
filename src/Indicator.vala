@@ -71,10 +71,8 @@ public class DateTime.Indicator : Wingpanel.Indicator {
                 max_width_chars = 20,
                 justify = Gtk.Justification.CENTER
             };
-
-            var placeholder_style_context = placeholder_label.get_style_context ();
-            placeholder_style_context.add_class (Granite.STYLE_CLASS_DIM_LABEL);
-            placeholder_style_context.add_class (Granite.STYLE_CLASS_H3_LABEL);
+            placeholder_label.add_css_class (Granite.CssClass.DIM);
+            placeholder_label.add_css_class (Granite.STYLE_CLASS_H3_LABEL);
 
             component_listbox = new Gtk.ListBox () {
                 selection_mode = Gtk.SelectionMode.NONE

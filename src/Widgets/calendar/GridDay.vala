@@ -48,9 +48,8 @@ public class DateTime.Widgets.GridDay : Granite.Bin {
     construct {
         label = new Gtk.Label (null);
 
-        unowned var label_style_context = label.get_style_context ();
-        label_style_context.add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-        label_style_context.add_class ("circular");
+        label.get_style_context ().add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        label.add_css_class (Granite.CssClass.CIRCULAR);
 
         event_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             halign = Gtk.Align.CENTER,
@@ -101,10 +100,8 @@ public class DateTime.Widgets.GridDay : Granite.Bin {
                 gicon = new ThemedIcon ("pager-checked-symbolic"),
                 pixel_size = 6
             };
-
-            unowned var style_context = event_dot.get_style_context ();
-            style_context.add_class (Granite.STYLE_CLASS_ACCENT);
-            style_context.add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+            event_dot.add_css_class (Granite.CssClass.ACCENT);
+            event_dot.get_style_context ().add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
             unowned E.SourceSelectable? source_selectable = null;
             if (source.has_extension (E.SOURCE_EXTENSION_TASK_LIST)) {

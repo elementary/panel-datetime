@@ -46,10 +46,10 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/io/elementary/desktop/wingpanel/datetime/ControlHeader.css");
 
-        unowned var label_style_context = label.get_style_context ();
-        label_style_context.add_class (Granite.STYLE_CLASS_ACCENT);
-        label_style_context.add_class ("header-label");
-        label_style_context.add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        label.add_css_class (Granite.CssClass.ACCENT);
+        label.add_css_class ("header-label");
+
+        label.get_style_context ().add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var left_button = new Gtk.Button.from_icon_name ("pan-start-symbolic");
         var center_button = new Gtk.Button.from_icon_name ("office-calendar-symbolic") {
@@ -57,11 +57,10 @@ public class DateTime.Widgets.CalendarView : Gtk.Grid {
         };
         var right_button = new Gtk.Button.from_icon_name ("pan-end-symbolic");
 
-        var box_buttons = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
+        var box_buttons = new Granite.Box (HORIZONTAL, LINKED) {
             margin_end = 6,
-            valign = Gtk.Align.CENTER
+            valign = CENTER
         };
-        box_buttons.get_style_context ().add_class (Granite.STYLE_CLASS_LINKED);
         box_buttons.append (left_button);
         box_buttons.append (center_button);
         box_buttons.append (right_button);
