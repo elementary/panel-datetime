@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 19:06+0000\n"
-"PO-Revision-Date: 2026-06-29 18:56+0000\n"
+"PO-Revision-Date: 2026-07-10 16:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-datetime/el/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/Indicator.vala:164
 msgid "During the Day"
-msgstr ""
+msgstr "Κατά τη διάρκεια της ημέρας"
 
 #: src/Indicator.vala:172
 msgid "All Day"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
-msgstr ""
+msgstr "Αδυναμία εκκίνησης του Ημερολογίου"
 
 #: src/Widgets/PanelLabel.vala:90 src/Widgets/calendar/CalendarView.vala:250
 msgid "The program \"io.elementary.calendar\" may not be installed"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/Widgets/calendar/CalendarView.vala:56
 msgid "Go to today's date"
-msgstr ""
+msgstr "Μετάβαση στη σημερινή ημερομηνία"
 
 #~ msgid "Date & Time"
 #~ msgstr "Ημερομηνία & ώρα"
