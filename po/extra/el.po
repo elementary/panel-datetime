@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 19:06+0000\n"
-"PO-Revision-Date: 2026-06-29 18:56+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-datetime-extra/el/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/datetime.metainfo.xml.in:11
 msgid "Date & Time Indicator"
-msgstr ""
+msgstr "Ένδειξη ημερομηνίας και ώρας"
 
 #: data/datetime.metainfo.xml.in:12
 msgid "The date and time indicator"
@@ -44,7 +44,7 @@ msgstr "Ενημερωμένες μεταφράσεις"
 
 #: data/datetime.metainfo.xml.in:53
 msgid "New features:"
-msgstr ""
+msgstr "Νέες λειτουργίες:"
 
 #: data/datetime.metainfo.xml.in:55
 msgid "Open Calendar on middle-click"
