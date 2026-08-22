@@ -39,7 +39,7 @@ endif
 
 config_data = configuration_data()
 config_data.set_quoted('LOCALEDIR', prefix / get_option('localedir'))
-config_data.set_quoted('GETTEXT_PACKAGE', meson.project_name() + '-indicator')
+config_data.set_quoted('GETTEXT_PACKAGE', gettext_name)
 config_file = configure_file(
     input: 'src/Config.vala.in',
     output: '@BASENAME@',
