@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 19:06+0000\n"
-"PO-Revision-Date: 2026-07-25 20:01+0000\n"
+"PO-Revision-Date: 2026-08-30 19:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-datetime/el/>\n"
@@ -41,7 +41,7 @@ msgstr "Κατά τη διάρκεια της ημέρας"
 
 #: src/Indicator.vala:172
 msgid "All Day"
-msgstr ""
+msgstr "Όλη μέρα"
 
 #: src/Widgets/PanelLabel.vala:89 src/Widgets/calendar/CalendarView.vala:249
 msgid "Unable To Launch Calendar"
